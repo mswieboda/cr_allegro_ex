@@ -1,6 +1,6 @@
 require "crystal_allegro"
 
-module AllegroHello
+module AllegroEx
   VERSION = "0.1.0"
 
   puts "hello allegro"

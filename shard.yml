@@ -1,12 +1,12 @@
-name: allegro_hello
+name: allegro_ex
 version: 0.1.0
 
 authors:
   - Matt Swieboda <mswieboda@users.noreply.github.com>
 
 targets:
-  allegro_hello:
-    main: src/allegro_hello.cr
+  allegro_ex:
+    main: src/allegro_ex.cr
 
 dependencies:
   crystal_allegro:

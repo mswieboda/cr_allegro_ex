@@ -2,8 +2,8 @@ SHELL = /bin/sh
 CC = crystal build
 # ALLEGRO_FLAGS = $$(pkg-config allegro-5 allegro_main-5 allegro_font-5 allegro_ttf-5 allegro_image-5 allegro_primitives-5 --libs --cflags)
 BUILD_DIR = build
-OUT_FILE = ${BUILD_DIR}/allegro_hello.o
-SOURCE_FILES = src/allegro_hello.cr
+OUT_FILE = ${BUILD_DIR}/allegro_ex.o
+SOURCE_FILES = src/allegro_ex.cr
 
 build_and_run: clean run
 
